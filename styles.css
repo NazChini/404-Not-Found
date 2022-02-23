@@ -1,0 +1,117 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace; */
+
+/* -----------TYPOGRAPHY---------------- */
+
+:root {
+    font-size: 16px;
+    --dark-grey: #333333;
+    --light-grey: rgb(155, 153, 153);
+}
+
+body {
+    text-align: left;
+    margin: 0;
+    color: var(--dark-grey);
+    font-family: 'Space Mono', monospace;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 4.375rem;
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    margin-left: 1.5em;
+    margin-bottom: 4em;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--light-grey);
+    text-align: center;
+    font-size: 0.875rem;
+    letter-spacing: 0.02rem;
+    padding-bottom: 1.5em;
+}
+
+a {
+    color: var(--light-grey);
+    font-weight: bolder;
+}
+
+/* -----------LAYOUT---------------- */
+
+img {
+    max-width: 300px;
+    margin-bottom: 3em;
+}
+
+.flex-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-para {
+    font-size: 1.125rem;
+    margin-bottom: 3.5em;
+    line-height: 1.625rem;
+    letter-spacing: 0.1rem;
+}
+
+#btn-homepage {
+    background: var(--dark-grey);
+    color: #fff ;
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-family: inherit;
+    margin-bottom: 7em;
+    padding: 2em 4em;
+}
+
+/* -----------MEDIA QUERY---------------- */
+
+@media (min-width: 960px) {
+    .flex-container {
+        flex-direction: row;
+        margin-bottom: 12em;
+    }
+
+    .section-text {
+        width: 50%;
+    }
+
+    .section-para {
+        width: 60%;
+        font-size: 1.4em;
+        line-height: 2.25rem;
+        letter-spacing: -0.08em;
+    }
+
+    #btn-homepage {
+        margin-bottom: 0;
+    }
+
+    img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        line-height: 6rem;
+        letter-spacing: -0.035em;
+    }
+
+    h2 {
+        margin-bottom: 4em;
+    }
+}
