@@ -50,5 +50,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/NazChini})
-- Twitter [@your-twitter](https://{twitter.com/NazChini})
+- GitHub [@NazChini](https://{github.com/NazChini})
+- Twitter [@NazChini](https://{twitter.com/NazChini})
